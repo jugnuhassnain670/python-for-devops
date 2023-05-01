@@ -1,14 +1,14 @@
-name="jugnu"
+name = "jugnu"
 print(f"Hello {name}")
 
-fruits=["apple", "mango"]
+fruits = ["apple", "mango"]
 print(type(fruits))
 
 for fruit in fruits:
     print(f"this is my favourite {fruit}")
 
 
-meal={"breakfast": "yougurt", "brunch":"roti", "lunch":"two rotis"}
+meal = {"breakfast": "yougurt", "brunch": "roti", "lunch": "two rotis"}
 print(meal.keys())
 print(meal.values())
 
