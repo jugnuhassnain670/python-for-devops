@@ -36,5 +36,13 @@ async def phrase(name: str):
     return {"result": result}
 
 
+@app.get("/search2/{value}")
+async def search2(value: str):
+    """Page to search2 in wikipedia"""
+
+    result = search_wiki(value)
+    return {"result": result}
+
+
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")
